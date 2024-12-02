@@ -1,3 +1,5 @@
+import utils.*
+
 fun sortedColumn(linesOfTwoIds: List<List<String>>, column: Int) = linesOfTwoIds.map { it[column].toInt() }.sorted()
 
 fun abs(a: Int) = if (a >= 0) a else -a

@@ -1,7 +1,11 @@
+package utils
+
 import java.math.BigInteger
 import java.security.MessageDigest
 import kotlin.io.path.Path
 import kotlin.io.path.readText
+
+fun abs(a: Int) = if (a >= 0) a else -a
 
 /**
  * Reads lines from the given input txt file.
