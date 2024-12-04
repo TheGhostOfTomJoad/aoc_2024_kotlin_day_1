@@ -12,6 +12,8 @@ fun abs(a: Int) = if (a >= 0) a else -a
  */
 fun readInput(name: String) = Path("src/$name.txt").readText().trim().lines()
 
+
+fun readInput2(name: String) = Path("src/$name.txt").readText().trim()
 /**
  * Converts string to md5 hash.
  */
